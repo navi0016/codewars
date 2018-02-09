@@ -8,8 +8,8 @@
 def presses(phrase)
 
 
-
-array = phrase.split("")
+b = phrase.downcase
+array = b.split("")
 
 # puts keys = buttonsPressed(array[0])
 total_buttons_pressed = 0
@@ -41,4 +41,4 @@ buttons.each {
 end
 
 # puts buttonsPressed('t')
-presses("fuck you monarch") # 9
+presses("fuck you Monarch") # 9
